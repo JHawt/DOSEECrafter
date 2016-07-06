@@ -7,7 +7,7 @@
 {"ResultingItem":"Bowstring","Item1":"Sinew","Item2":"Sinew","Skill":"-","Recipe":"The String Enthusiast I","Notes":null},
 {"ResultingItem":"Branch (2x)","Item1":"Log","Item2":"Hand Axe","Skill":"-","Recipe":"The Adventurer's Field Guide V","Notes":null},
 {"ResultingItem":"Wood Chips","Item1":"Log","Item2":"Hand Axe","Skill":"-","Recipe":"The Adventurer's Field Guide V","Notes":null},
-{"ResultingItem":"Bucket with Milk","Item1":"Bucket","Item2":"Cow","Skill":"-","Recipe":"","Notes":Talk to the Cow with the Bucket in your inventory. Needs Pet Pal.},
+{"ResultingItem":"Bucket with Milk","Item1":"Bucket","Item2":"Cow","Skill":"-","Recipe":"","Notes":"Talk to the Cow with the Bucket in your inventory. Needs Pet Pal."},
 {"ResultingItem":"Bucket with Water","Item1":"Bucket","Item2":"Water Source: Water Barrel, Well","Skill":"-","Recipe":"","Notes":null},
 {"ResultingItem":"Crossbow Without a\nBowstring","Item1":"Iron Bar","Item2":"Branch","Skill":"Crafting\n2","Recipe":"The String Enthusiast I","Notes":null},
 {"ResultingItem":"Cup of Oil","Item1":"Empty Cup","Item2":"Oil Barrel","Skill":"-","Recipe":"","Notes":null},
@@ -24,6 +24,6 @@
 {"ResultingItem":"Large Steel Bar","Item1":"Two-Handed Axe","Item2":"Furnace","Skill":"Blacksmithing\n1","Recipe":"","Notes":null},
 {"ResultingItem":"Leather Scraps","Item1":"Animal Hide","Item2":"Knife or Dagger","Skill":"Crafting\n1","Recipe":"The Adventurer's Field Guide XX","Notes":null},
 {"ResultingItem":"Magic Antler","Item1":"Antler","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":null},
-{"ResultingItem":"Magic Chicken Foot","Item1":"Chicken Foot","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":Bug: Magic Chicken Foot is called\nChicken Foot},
+{"ResultingItem":"Magic Chicken Foot","Item1":"Chicken Foot","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":"Bug- Magic Chicken Foot is called Chicken Foot"},
 {"ResultingItem":"Magic Claw","Item1":"Claw","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":null},
 {"ResultingItem":"Magic Eye","Item1":"Eye","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":null}]
