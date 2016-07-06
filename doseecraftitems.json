@@ -1,4 +1,4 @@
-[{"ResultingItem":"Arrow Shaft (x3)","Item1":"Branch","Item2":"Knife","Skill":"-","Recipe":"Crafting and Cooking with Maradino","Notes":null},
+{ "records":[{"ResultingItem":"Arrow Shaft (x3)","Item1":"Branch","Item2":"Knife","Skill":"-","Recipe":"Crafting and Cooking with Maradino","Notes":null},
 {"ResultingItem":"Bonedust","Item1":"Bone","Item2":"Mortar and Pestle","Skill":"-","Recipe":"Secrets of the Scroll  I","Notes":null},
 {"ResultingItem":"Bonedust","Item1":"Orc Horn","Item2":"Mortar and Pestle","Skill":"-","Recipe":"Secrets of the Scroll  I","Notes":null},
 {"ResultingItem":"Bonedust","Item1":"Skull","Item2":"Mortar and Pestle","Skill":"-","Recipe":"Secrets of the Scroll  I","Notes":null},
@@ -26,4 +26,4 @@
 {"ResultingItem":"Magic Antler","Item1":"Antler","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":null},
 {"ResultingItem":"Magic Chicken Foot","Item1":"Chicken Foot","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":"Bug- Magic Chicken Foot is called Chicken Foot"},
 {"ResultingItem":"Magic Claw","Item1":"Claw","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":null},
-{"ResultingItem":"Magic Eye","Item1":"Eye","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":null}]
+{"ResultingItem":"Magic Eye","Item1":"Eye","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":null}]}
