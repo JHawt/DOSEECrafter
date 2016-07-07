@@ -1,29 +1,3165 @@
-{ "records":[{"ResultingItem":"Arrow Shaft (x3)","Item1":"Branch","Item2":"Knife","Skill":"-","Recipe":"Crafting and Cooking with Maradino","Notes":null},
-{"ResultingItem":"Bonedust","Item1":"Bone","Item2":"Mortar and Pestle","Skill":"-","Recipe":"Secrets of the Scroll  I","Notes":null},
-{"ResultingItem":"Bonedust","Item1":"Orc Horn","Item2":"Mortar and Pestle","Skill":"-","Recipe":"Secrets of the Scroll  I","Notes":null},
-{"ResultingItem":"Bonedust","Item1":"Skull","Item2":"Mortar and Pestle","Skill":"-","Recipe":"Secrets of the Scroll  I","Notes":null},
-{"ResultingItem":"Bonedust","Item1":"Magic Skull","Item2":"Mortar and Pestle","Skill":"-","Recipe":"","Notes":null},
-{"ResultingItem":"Bonedust","Item1":"Magical Ancient\nHuman Skull","Item2":"Mortar and Pestle","Skill":"-","Recipe":"","Notes":null},
-{"ResultingItem":"Bowstring","Item1":"Sinew","Item2":"Sinew","Skill":"-","Recipe":"The String Enthusiast I","Notes":null},
-{"ResultingItem":"Branch (2x)","Item1":"Log","Item2":"Hand Axe","Skill":"-","Recipe":"The Adventurer's Field Guide V","Notes":null},
-{"ResultingItem":"Wood Chips","Item1":"Log","Item2":"Hand Axe","Skill":"-","Recipe":"The Adventurer's Field Guide V","Notes":null},
-{"ResultingItem":"Bucket with Milk","Item1":"Bucket","Item2":"Cow","Skill":"-","Recipe":"","Notes":"Talk to the Cow with the Bucket in your inventory. Needs Pet Pal."},
-{"ResultingItem":"Bucket with Water","Item1":"Bucket","Item2":"Water Source: Water Barrel, Well","Skill":"-","Recipe":"","Notes":null},
-{"ResultingItem":"Crossbow Without a\nBowstring","Item1":"Iron Bar","Item2":"Branch","Skill":"Crafting\n2","Recipe":"The String Enthusiast I","Notes":null},
-{"ResultingItem":"Cup of Oil","Item1":"Empty Cup","Item2":"Oil Barrel","Skill":"-","Recipe":"","Notes":null},
-{"ResultingItem":"Cup of Oil","Item1":"Empty Mug","Item2":"Oil Barrel","Skill":"-","Recipe":"","Notes":null},
-{"ResultingItem":"Feather","Item1":"Pillow","Item2":"Knife or Dagger","Skill":"-","Recipe":"","Notes":null},
-{"ResultingItem":"Flour","Item1":"Wheat","Item2":"Mortar and Pestle","Skill":"-","Recipe":"Patty Cake, Patty Cake II","Notes":null},
-{"ResultingItem":"Inert Voodoo Doll","Item1":"Wooden Figurine","Item2":"Needle","Skill":"-","Recipe":"","Notes":null},
-{"ResultingItem":"Ink Pot and Quill","Item1":"Quill","Item2":"Ink Pot","Skill":"-","Recipe":"Secrets of the Scroll IV","Notes":null},
-{"ResultingItem":"Iron Bar","Item1":"Iron Ore","Item2":"Furnace","Skill":"Blacksmithing\n1","Recipe":"","Notes":null},
-{"ResultingItem":"Iron Bar","Item1":"Shortsword","Item2":"Furnace","Skill":"Blacksmithing\n1","Recipe":"","Notes":null},
-{"ResultingItem":"Large Iron Bar","Item1":"Iron Bar","Item2":"Iron Bar","Skill":"-","Recipe":"","Notes":null},
-{"ResultingItem":"Large Iron Bar","Item1":"Two-Handed Sword","Item2":"Furnace","Skill":"-","Recipe":"","Notes":null},
-{"ResultingItem":"Large Steel Bar","Item1":"Large Iron Bar","Item2":"Furnace","Skill":"Blacksmithing\n1","Recipe":"","Notes":null},
-{"ResultingItem":"Large Steel Bar","Item1":"Two-Handed Axe","Item2":"Furnace","Skill":"Blacksmithing\n1","Recipe":"","Notes":null},
-{"ResultingItem":"Leather Scraps","Item1":"Animal Hide","Item2":"Knife or Dagger","Skill":"Crafting\n1","Recipe":"The Adventurer's Field Guide XX","Notes":null},
-{"ResultingItem":"Magic Antler","Item1":"Antler","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":null},
-{"ResultingItem":"Magic Chicken Foot","Item1":"Chicken Foot","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":"Bug- Magic Chicken Foot is called Chicken Foot"},
-{"ResultingItem":"Magic Claw","Item1":"Claw","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":null},
-{"ResultingItem":"Magic Eye","Item1":"Eye","Item2":"Pixie Dust","Skill":"Crafting\n1","Recipe":"","Notes":null}]}
+{
+	"records": [
+		[{
+			"ResultingItem": "Arrow Shaft (x3)",
+			"Item1": "Branch",
+			"Item2": "Knife",
+			"Skill": "-",
+			"Recipe": "Crafting and Cooking with Maradino",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Bonedust",
+			"Item1": "Bone",
+			"Item2": "Mortar and Pestle",
+			"Skill": "-",
+			"Recipe": "Secrets of the Scroll  I",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Bonedust",
+			"Item1": "Orc Horn",
+			"Item2": "Mortar and Pestle",
+			"Skill": "-",
+			"Recipe": "Secrets of the Scroll  I",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Bonedust",
+			"Item1": "Skull",
+			"Item2": "Mortar and Pestle",
+			"Skill": "-",
+			"Recipe": "Secrets of the Scroll  I",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Bonedust",
+			"Item1": "Magic Skull",
+			"Item2": "Mortar and Pestle",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Bonedust",
+			"Item1": "Magical Ancient Human Skull",
+			"Item2": "Mortar and Pestle",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Bowstring",
+			"Item1": "Sinew",
+			"Item2": "Sinew",
+			"Skill": "-",
+			"Recipe": "The String Enthusiast I",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Branch (2x)",
+			"Item1": "Log",
+			"Item2": "Hand Axe",
+			"Skill": "-",
+			"Recipe": "The Adventurer's Field Guide V",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Wood Chips",
+			"Item1": "Log",
+			"Item2": "Hand Axe",
+			"Skill": "-",
+			"Recipe": "The Adventurer's Field Guide V",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Bucket with Milk",
+			"Item1": "Bucket",
+			"Item2": "Cow",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Talk to the Cow with the Bucket in your inventory. Needs Pet Pal.",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Bucket with Water",
+			"Item1": "Bucket",
+			"Item2": "Water Source: Water Barrel, Well",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Crossbow Without a Bowstring",
+			"Item1": "Iron Bar",
+			"Item2": "Branch",
+			"Skill": "Crafting 2",
+			"Recipe": "The String Enthusiast I",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Cup of Oil",
+			"Item1": "Empty Cup",
+			"Item2": "Oil Barrel",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Cup of Oil",
+			"Item1": "Empty Mug",
+			"Item2": "Oil Barrel",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Feather",
+			"Item1": "Pillow",
+			"Item2": "Knife or Dagger",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Flour",
+			"Item1": "Wheat",
+			"Item2": "Mortar and Pestle",
+			"Skill": "-",
+			"Recipe": "Patty Cake, Patty Cake II",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Inert Voodoo Doll",
+			"Item1": "Wooden Figurine",
+			"Item2": "Needle",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Ink Pot and Quill",
+			"Item1": "Quill",
+			"Item2": "Ink Pot",
+			"Skill": "-",
+			"Recipe": "Secrets of the Scroll IV",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Iron Bar",
+			"Item1": "Iron Ore",
+			"Item2": "Furnace",
+			"Skill": "Blacksmithing 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Iron Bar",
+			"Item1": "Shortsword",
+			"Item2": "Furnace",
+			"Skill": "Blacksmithing 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Large Iron Bar",
+			"Item1": "Iron Bar",
+			"Item2": "Iron Bar",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Large Iron Bar",
+			"Item1": "Two-Handed Sword",
+			"Item2": "Furnace",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Large Steel Bar",
+			"Item1": "Large Iron Bar",
+			"Item2": "Furnace",
+			"Skill": "Blacksmithing 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Large Steel Bar",
+			"Item1": "Two-Handed Axe",
+			"Item2": "Furnace",
+			"Skill": "Blacksmithing 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Leather Scraps",
+			"Item1": "Animal Hide",
+			"Item2": "Knife or Dagger",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XX",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magic Antler",
+			"Item1": "Antler",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magic Chicken Foot",
+			"Item1": "Chicken Foot",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Bug: Magic Chicken Foot is called Chicken Foot",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magic Claw",
+			"Item1": "Claw",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magic Eye",
+			"Item1": "Eye",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magic Feather",
+			"Item1": "Feather",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magic Needle and Thread",
+			"Item1": "Needle and Thread",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magic Rabbit's Paw",
+			"Item1": "Rabbit's Paw",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "Secrets of the Scroll  III",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magic Rat's Tail",
+			"Item1": "Rat's Tail",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magic Skull",
+			"Item1": "Skull",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Note: Ancient Human Skull gives a better variant",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magic Starfish",
+			"Item1": "Starfish (base price 17 gold)",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magic Tooth",
+			"Item1": "Tooth",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magic Tusk",
+			"Item1": "Tusk",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Bug: Magic Tusk is called Magic Tooth",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magical Adult Antler",
+			"Item1": "Adult Antler",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magical Ancient Human Skull",
+			"Item1": "Ancient Human Skull",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magical Big Chicken Foot",
+			"Item1": "Big Chicken Foot",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magical Creepy Eye",
+			"Item1": "Creepy Eye",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magical Fancy Feather",
+			"Item1": "Fancy Feather",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magical Glowing Starfish",
+			"Item1": "Starfish (base price 51 gold)",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magical Large Tusk",
+			"Item1": "Large Tusk",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magical Long Rat Tail",
+			"Item1": "Long Rat Tail",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magical Lucky Rabbit Paw",
+			"Item1": "Lucky Rabbit Paw",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magical Sharp Claw",
+			"Item1": "Sharp Claw",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Magical Sharp Tooth",
+			"Item1": "Sharp Tooth",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Moondust",
+			"Item1": "Moonstone",
+			"Item2": "Mortar and Pestle",
+			"Skill": "-",
+			"Recipe": "Secrets of the Scroll  II",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Mush of Wood",
+			"Item1": "Wood Chips",
+			"Item2": "Water Source: Water Barrel, Well",
+			"Skill": "-",
+			"Recipe": "Secrets of the Scroll VI",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Mush of Wood",
+			"Item1": "Wood Chips",
+			"Item2": "Bucket with Water",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Bucket",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Needle and Thread",
+			"Item1": "Needle",
+			"Item2": "Thread",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Ore",
+			"Item1": "Pickaxe",
+			"Item2": "Vein",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Ore type depends  on type of vein. Can be used 5 times.",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Pixie Dust",
+			"Item1": "Bonedust",
+			"Item2": "Stardust",
+			"Skill": "-",
+			"Recipe": "Secrets of the Scroll  II",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Pixie Dust",
+			"Item1": "Moondust",
+			"Item2": "Stardust",
+			"Skill": "-",
+			"Recipe": "Secrets of the Scroll  II",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Quill",
+			"Item1": "Feather",
+			"Item2": "Knife or Dagger",
+			"Skill": "-",
+			"Recipe": "Secrets of the Scroll IV",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Rope",
+			"Item1": "Yarn",
+			"Item2": "Yarn",
+			"Skill": "-",
+			"Recipe": "The Adventurer's Field Guide XVII",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Sack of Grist",
+			"Item1": "Sack of Barley",
+			"Item2": "Mill",
+			"Skill": "-",
+			"Recipe": "The Art of Wiskey, (Glen's House)",
+			"Notes": "Used in the quest: Distill my Heart",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Sheet of Paper",
+			"Item1": "Mush of Wood",
+			"Item2": "Furnace",
+			"Skill": "-",
+			"Recipe": "Secrets of the Scroll VI",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Spirit",
+			"Item1": "Wort",
+			"Item2": "Pot Sill",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Used in the quest: Distill my Heart",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Stardust",
+			"Item1": "Stardust Herb",
+			"Item2": "Mortar and Pestle",
+			"Skill": "-",
+			"Recipe": "Secrets of the Scroll  II",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Steel Bar",
+			"Item1": "Iron Bar",
+			"Item2": "Furnace",
+			"Skill": "Blacksmithing 1",
+			"Recipe": "He Who Smells It IV",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Steel Bar",
+			"Item1": "Hand Axe",
+			"Item2": "Furnace",
+			"Skill": "Blacksmithing 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Tenebrium Bar",
+			"Item1": "Tenebrium Ore",
+			"Item2": "Furnace",
+			"Skill": "Blacksmithing 4",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Thread",
+			"Item1": "Hair",
+			"Item2": "Hair",
+			"Skill": "-",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Wooden Figurine",
+			"Item1": "Cloth Scraps",
+			"Item2": "Thread",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Wool",
+			"Item1": "Shears",
+			"Item2": "Sheep",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Talk to Sheep with the Shears in your inventory. Needs Pet Pal.",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Wort",
+			"Item1": "Sack of Grist",
+			"Item2": "Bucket with Water",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Used in the quest: Distill my Heart",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Yarn",
+			"Item1": "Wool",
+			"Item2": "Wool",
+			"Skill": "-",
+			"Recipe": "The Adventurer's Field Guide XVII",
+			"Notes": "",
+			"Type": "Ingredients"
+		}, {
+			"ResultingItem": "Backpack",
+			"Item1": "Leather Scraps",
+			"Item2": "Rope",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Tool"
+		}, {
+			"ResultingItem": "Blossius's Adapted Will",
+			"Item1": "Blossius's Will",
+			"Item2": "Ink Pot and Quill",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Tool"
+		}, {
+			"ResultingItem": "Blossius's Adapted Will",
+			"Item1": "Blossius's Will",
+			"Item2": "Magic Ink Pot and Quill",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Tool"
+		}, {
+			"ResultingItem": "Lockpicks",
+			"Item1": "Needle",
+			"Item2": "Needle",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Tool"
+		}, {
+			"ResultingItem": "Lockpicks (x4)",
+			"Item1": "Nine Inch Nails",
+			"Item2": "Hammer",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Tool"
+		}, {
+			"ResultingItem": "Lockpicks",
+			"Item1": "Soap",
+			"Item2": "Key",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Drag the Soap from the ground or a backpack to the key in inventory",
+			"Type": "Tool"
+		}, {
+			"ResultingItem": "Magic Ink Pot and Quill",
+			"Item1": "Ink Pot and Quill",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "Secrets of the Scroll IV",
+			"Notes": "",
+			"Type": "Tool"
+		}, {
+			"ResultingItem": "Mobile Kitchen",
+			"Item1": "Cooking Pot",
+			"Item2": "Campfire",
+			"Skill": "-",
+			"Recipe": "Patty Cake, Patty Cake I",
+			"Notes": "Cannot be put in Inventory",
+			"Type": "Tool"
+		}, {
+			"ResultingItem": "Vocalisation Potion",
+			"Item1": "Bottled Voice",
+			"Item2": "Voxwood",
+			"Skill": "-",
+			"Recipe": "Imal's Research",
+			"Notes": "",
+			"Type": "Tool"
+		}, {
+			"ResultingItem": "Washing Tub with a Washboard",
+			"Item1": "Washing Tub",
+			"Item2": "Washboard",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Tool"
+		}, {
+			"ResultingItem": "Blank Air Scroll",
+			"Item1": "Sheet of Paper",
+			"Item2": "Air Essence",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Air Scroll",
+			"Item1": "Deck of Cards",
+			"Item2": "Air Essence",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Air Scroll",
+			"Item1": "Parchment",
+			"Item2": "Air Essence",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Air Skillbook",
+			"Item1": "Blank Air Scroll",
+			"Item2": "Blank Air Scroll",
+			"Skill": "Crafting 5",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Skillbook"
+		}, {
+			"ResultingItem": "Blank Earth Scroll",
+			"Item1": "Sheet of Paper",
+			"Item2": "Earth Essence",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Earth Scroll",
+			"Item1": "Deck of Cards",
+			"Item2": "Earth Essence",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Earth Scroll",
+			"Item1": "Parchment",
+			"Item2": "Earth Essence",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Fire Scroll",
+			"Item1": "Sheet of Paper",
+			"Item2": "Fire Essence",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Fire Scroll",
+			"Item1": "Deck of Cards",
+			"Item2": "Fire Essence",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Fire Scroll",
+			"Item1": "Parchment",
+			"Item2": "Fire Essence",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Skillbook Earth",
+			"Item1": "Blank Earth Scroll",
+			"Item2": "Blank Earth Scroll",
+			"Skill": "Crafting 5",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Skillbook"
+		}, {
+			"ResultingItem": "Blank Skillbook Fire",
+			"Item1": "Blank Fire Scroll",
+			"Item2": "Blank Fire Scroll",
+			"Skill": "Crafting 5",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Skillbook"
+		}, {
+			"ResultingItem": "Blank Skillbook Water",
+			"Item1": "Blank Water Scroll",
+			"Item2": "Blank Water Scroll",
+			"Skill": "Crafting 5",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Skillbook"
+		}, {
+			"ResultingItem": "Blank Skillbook Witchcraft",
+			"Item1": "Blank Witchcraft Scroll",
+			"Item2": "Blank Witchcraft Scroll",
+			"Skill": "Crafting 5",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Skillbook"
+		}, {
+			"ResultingItem": "Blank Water Scroll",
+			"Item1": "Sheet of Paper",
+			"Item2": "Water Essence",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Water Scroll",
+			"Item1": "Deck of Cards",
+			"Item2": "Water Essence",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Water Scroll",
+			"Item1": "Parchment",
+			"Item2": "Water Essence",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Witchcraft Scroll",
+			"Item1": "Sheet of Paper",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "Secrets of the Scroll V",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Witchcraft Scroll",
+			"Item1": "Deck of Cards",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Blank Witchcraft Scroll",
+			"Item1": "Parchment",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "Secrets of the Scroll V",
+			"Notes": "",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Death Knight Bane Skillbook",
+			"Item1": "Leandra's Spell",
+			"Item2": "Vial of Leandra's Blood",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Needed to be able to harm Death Knights",
+			"Type": "Skillbook"
+		}, {
+			"ResultingItem": "Random Air Scroll",
+			"Item1": "Blank Air Scroll",
+			"Item2": "Magic Ink Pot and Quill",
+			"Skill": "Crafting 2+",
+			"Recipe": "Secrets of the Scroll V",
+			"Notes": "Need Crafting 5 to be able to craft all scrolls",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Random Earth Scroll",
+			"Item1": "Blank Earth Scroll",
+			"Item2": "Magic Ink Pot and Quill",
+			"Skill": "Crafting 2+",
+			"Recipe": "Secrets of the Scroll V",
+			"Notes": "Need Crafting 5 to be able to craft all scrolls",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Random Fire Scroll",
+			"Item1": "Blank Fire Scroll",
+			"Item2": "Magic Ink Pot and Quill",
+			"Skill": "Crafting 2+",
+			"Recipe": "Secrets of the Scroll V",
+			"Notes": "Need Crafting 5 to be able to craft all scrolls",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Random Water Scroll",
+			"Item1": "Blank Water Scroll",
+			"Item2": "Magic Ink Pot and Quill",
+			"Skill": "Crafting 2+",
+			"Recipe": "Secrets of the Scroll V",
+			"Notes": "Need Crafting 5 to be able to craft all scrolls",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Random Witchcraft Scroll",
+			"Item1": "Blank Witchcraft Scroll",
+			"Item2": "Magic Ink Pot and Quill",
+			"Skill": "Crafting 2+",
+			"Recipe": "Secrets of the Scroll V",
+			"Notes": "Need Crafting 5 to be able to craft all scrolls",
+			"Type": "Scrolls"
+		}, {
+			"ResultingItem": "Specific Air Skillbook",
+			"Item1": "Air Scroll",
+			"Item2": "Blank Air Skillbook",
+			"Skill": "Crafting 2+",
+			"Recipe": "Secrets of the Scroll  X",
+			"Notes": "Requires the same Crafting skill as is needed to create the scroll",
+			"Type": "Skillbook"
+		}, {
+			"ResultingItem": "Specific Earth Skillbook",
+			"Item1": "Earth Scroll",
+			"Item2": "Blank Skillbook Earth",
+			"Skill": "Crafting 2+",
+			"Recipe": "Secrets of the Scroll  X",
+			"Notes": "Requires the same Crafting skill as is needed to create the scroll",
+			"Type": "Skillbook"
+		}, {
+			"ResultingItem": "Specific Fire Skillbook",
+			"Item1": "Fire Scroll",
+			"Item2": "Blank Skillbook Fire",
+			"Skill": "Crafting 2+",
+			"Recipe": "Secrets of the Scroll  X",
+			"Notes": "Requires the same Crafting skill as is needed to create the scroll",
+			"Type": "Skillbook"
+		}, {
+			"ResultingItem": "Specific Water Skillbook",
+			"Item1": "Water Scroll",
+			"Item2": "Blank Skillbook Water",
+			"Skill": "Crafting 2+",
+			"Recipe": "Secrets of the Scroll  X",
+			"Notes": "Requires the same Crafting skill as is needed to create the scroll",
+			"Type": "Skillbook"
+		}, {
+			"ResultingItem": "Specific Witchcraft Skillbook",
+			"Item1": "Witchcraft Scroll",
+			"Item2": "Blank Skillbook Witchcraft",
+			"Skill": "Crafting 2+",
+			"Recipe": "Secrets of the Scroll  X",
+			"Notes": "Requires the same Crafting skill as is needed to create the scroll",
+			"Type": "Skillbook"
+		}, {
+			"ResultingItem": "Adult Antlet Helmet",
+			"Item1": "Magical Adult Antler",
+			"Item2": "Leather Helmet",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "IL=HL. Constitution: +1(HL1) / +2(HL17). Water Resistance: +5%(HL1) / +10%(HL6) / +15%(HL11) / + 20 % (HL16) / +25 % (HL21)",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Battered  Cooking Pot",
+			"Item1": "Cooking Pot",
+			"Item2": "Hammer",
+			"Skill": "-",
+			"Recipe": "The Adventurer's Field Guide XVIII",
+			"Notes": "",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Boots",
+			"Item1": "Cloth Scraps",
+			"Item2": "Anvil",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "C3+: Armor Rating or Movement bonus.",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Cloth Armor",
+			"Item1": "Cloth Scraps",
+			"Item2": "Needle and Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XVI",
+			"Notes": "C5: Armor Rating, HP, or Lucky Charm bonus.",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Crab Helmet",
+			"Item1": "Crab's Claw",
+			"Item2": "Leather Helmet",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "IL=HL, + HP",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Creapy Eye Helmet",
+			"Item1": "Magical Creapy Eye",
+			"Item2": "Leather Helmet",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "IL=HL. + Sight. Perception:  +1(HL1) / +2 (HL17)",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Deer Helmet",
+			"Item1": "Magic Antler",
+			"Item2": "Leather Helmet",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "IL=HL. Constitution: +1(HL1) / +2(HL17)",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Fancy Feather Helmet",
+			"Item1": "Magical Fancy Feather",
+			"Item2": "Leather Helmet",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "IL=HL. Sneaking: +1. Air Resistance: +5%(HL1) / +10%(HL4) / +15%(HL9) / + 20 % (HL14) / +25 % (HL19)",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Feather Helmet",
+			"Item1": "Magic Feather",
+			"Item2": "Leather Helmet",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "IL=HL. Sneaking: +1. Air Resistance: +5%(HL1) / +10%(HL6) / +15%(HL11) / + 20 % (HL16) / +25 % (HL21)",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Glowing Starfish Helmet",
+			"Item1": "Magical Glowing Starfish",
+			"Item2": "Leather Helmet",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "IL=HL. Leadership: +1. Water Resistance: +5%(HL1) / +10%(HL4) / +15%(HL9) / + 20 % (HL14) / +25 % (HL19)",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Leather Armor",
+			"Item1": "Leather Scraps",
+			"Item2": "Needle and Thread",
+			"Skill": "Crafting 2",
+			"Recipe": "The Adventurer's Field Guide XVI",
+			"Notes": "",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Leather Armor",
+			"Item1": "Leather Scraps",
+			"Item2": "Magic Needle and Thread",
+			"Skill": "Crafting 5",
+			"Recipe": "",
+			"Notes": "Armor Rating, HP, or Lucky Charm bonus.",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Leather Boots",
+			"Item1": "Leather Scraps",
+			"Item2": "Anvil",
+			"Skill": "Crafting 2",
+			"Recipe": "He Who Smells It VII",
+			"Notes": "C5: Armor Rating or Movement bonus.",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Metal Boots",
+			"Item1": "Metal Scraps",
+			"Item2": "Anvil",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "C5: Armor Rating or Movement bonus.",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Plate Armor",
+			"Item1": "Metal Scraps",
+			"Item2": "Hammer",
+			"Skill": "Blacksmithing 3",
+			"Recipe": "He Who Smells It VI",
+			"Notes": "C5: Armor Rating, HP, or Lucky Charm bonus.",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Pumpkin Helmet",
+			"Item1": "Pumpkin",
+			"Item2": "Knife or Dagger",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Fire Resistance: +10% (IL1) / +15% (IL3) / +20% (IL8) / +25%(IL13) / +30%(IL18). 5%chance toset Feared Status",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Robe",
+			"Item1": "Cloth Scraps",
+			"Item2": "Magic Needle and Thread",
+			"Skill": "Crafting 5",
+			"Recipe": "The Adventurer's Field Guide XVI",
+			"Notes": "HP, Intelligence, Lucky Charm, or Speed bonus",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Starfish Helmet",
+			"Item1": "Magic Starfish",
+			"Item2": "Leather Helmet",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "IL=HL. Leadership: +1. Water Resistance: +5%(HL1) / +10%(HL6) / +15%(HL11) / + 20 % (HL16) / +25 % (HL21)",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "The Third Eye Helmet",
+			"Item1": "Magic Eye",
+			"Item2": "Leather Helmet",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "IL=HL. Perception:  +1(HL1) / +2 (HL17)",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Trethon's Old Robes",
+			"Item1": "Cloth Scraps",
+			"Item2": "Mysterious Fabric Dye",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "IL=HL. Intelligence:  +1(HL1) / +2 (HL17). +Speed. All Resistances except Poison: +5%(HL1) / +10%(HL6) / + 15 % (HL11) / +20 % (HL16) / +25 % (HL21)",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Weresheep Armor (4 pieces)",
+			"Item1": "Weresheep Wool",
+			"Item2": "Elemental Forge",
+			"Skill": "-",
+			"Recipe": "Weresheep Recipe",
+			"Notes": "",
+			"Type": "Armor"
+		}, {
+			"ResultingItem": "Axe",
+			"Item1": "Steel Bar",
+			"Item2": "Anvil",
+			"Skill": "Blacksmithing 1",
+			"Recipe": "He Who Smells It II",
+			"Notes": "B5: Critical Chance, Damage, or Max Action Points bonus",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Bow",
+			"Item1": "Bowstring",
+			"Item2": "Branch",
+			"Skill": "Crafting 1",
+			"Recipe": "The String Enthusiast I",
+			"Notes": "C5: Dexterity, Max Action Points, or Speed bonus",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Buffalo Sabre",
+			"Item1": "Buffalo Amulet",
+			"Item2": "Old Sabre",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Damage, and Strength bonus",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Crossbow",
+			"Item1": "Crossbow Without a Bowstring",
+			"Item2": "Bowstring",
+			"Skill": "Crafting 2",
+			"Recipe": "The String Enthusiast I",
+			"Notes": "C5: Critical Chance, Damage, or Dexterity bonus",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Dagger",
+			"Item1": "Knife",
+			"Item2": "Anvil",
+			"Skill": "Blacksmithing 1",
+			"Recipe": "The Adventurer's Field Guide IV",
+			"Notes": "B5: Dexterity, Lucky Charm, Max Action Points, or Speed bonus",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Nail-Fortified Branch",
+			"Item1": "Branch",
+			"Item2": "Nine Inch Nails ",
+			"Skill": "-",
+			"Recipe": "The Adventurer's Field Guide I",
+			"Notes": "",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Shambling Oak Death Wand",
+			"Item1": "Branch",
+			"Item2": "Tenebrium Ore",
+			"Skill": "Crafting 5",
+			"Recipe": "Talk to Hilda in Hiberheim",
+			"Notes": "Use it to kill Shambling Oaks",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Spear",
+			"Item1": "Branch",
+			"Item2": "Dagger",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide I",
+			"Notes": "C5: Critical Chance or Damage bonus",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Staff",
+			"Item1": "Branch",
+			"Item2": "Branch",
+			"Skill": "Crafting 2",
+			"Recipe": "Crafting and Cooking with Maradino, The Adventurer's Field Guide VI",
+			"Notes": "C3-4: Lucky Charm bonus. C5: Intelligence, Lucky Charm, or Max Action Points bonus.",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Sword",
+			"Item1": "Iron Bar",
+			"Item2": "Anvil",
+			"Skill": "Blacksmithing 1",
+			"Recipe": "He Who Smells It I",
+			"Notes": "B5: Damage or Max Action Points bonus",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Sword of Planets",
+			"Item1": "Fiery Heart",
+			"Item2": "Bottle of Swirling Mud",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "+ Fire Damage, All Elemental  Resistances: +5%(HL1) / +10%(HL4) / +15%(HL9) / +20%(HL14) / + 25 % (HL19), + Chance toset Burning status",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Two-Handed Sword",
+			"Item1": "Large Iron Bar",
+			"Item2": "Anvil",
+			"Skill": "Blacksmithing 1",
+			"Recipe": "He Who Smells It III",
+			"Notes": "B5: Damage or Strength bonus",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Two-Handed Axe",
+			"Item1": "Large Steel Bar",
+			"Item2": "Anvil",
+			"Skill": "Blacksmithing 2",
+			"Recipe": "He Who Smells It III",
+			"Notes": "B5: Damage or Critical Chance bonus",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Voodoo Doll",
+			"Item1": "Inert Voodoo Doll",
+			"Item2": "Pixie Dust",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "C3-5: 20/40/75% to set Bleeding status bonus.",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Wooden Stake",
+			"Item1": "Log",
+			"Item2": "Knife or Dagger",
+			"Skill": "-",
+			"Recipe": "Crafting and Cooking with Maradino",
+			"Notes": "",
+			"Type": "Weapon"
+		}, {
+			"ResultingItem": "Arrow",
+			"Item1": "Arrow Shaft",
+			"Item2": "Arrowhead",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Useless",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Arrow of Ignorance",
+			"Item1": "Debuff Intelligence Potion",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 2",
+			"Recipe": "The String Enthusiast II",
+			"Notes": "Lowers target's Intelligence",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Blinding Arrow",
+			"Item1": "Debuff Perception Potion",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 2",
+			"Recipe": "The String Enthusiast II",
+			"Notes": "Lowers target's Perception",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Charming Arrow",
+			"Item1": "Charming Arrowhead",
+			"Item2": "Arrow Shaft",
+			"Skill": "Crafting 4",
+			"Recipe": "",
+			"Notes": "Charms target",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Charming Arrowhead",
+			"Item1": "Drudanae",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 4",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Cursing Arrow",
+			"Item1": "Debuff-All Potion",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 3",
+			"Recipe": "The String Enthusiast II",
+			"Notes": "Lowers all of target's Primary Stats",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Explosive Arrow",
+			"Item1": "Explosive Arrowhead",
+			"Item2": "Arrow Shaft",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "Creates an explosion",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Explosive Arrowhead",
+			"Item1": "Fire Arrowhead",
+			"Item2": "Cup of Oil ",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Empty Cup",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Explosive Arrowhead",
+			"Item1": "Fire Resistance Potion",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 3",
+			"Recipe": "The String Enthusiast II",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Fire Arrow",
+			"Item1": "Fire Arrowhead",
+			"Item2": "Arrow Shaft",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Can Burn target",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Freezing Arrow",
+			"Item1": "Freezing Arrowhead",
+			"Item2": "Arrow Shaft",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "Can Freeze target",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Knockdown Arrow",
+			"Item1": "Knockdown Arrowhead",
+			"Item2": "Arrow Shaft",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Can knock down target",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Knockdown Arrowhead",
+			"Item1": "Antler",
+			"Item2": "Knife or Dagger",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Poison Arrow",
+			"Item1": "Poisoned Arrowhead",
+			"Item2": "Arrow Shaft",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Can poison target",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Poisoned Arrowhead",
+			"Item1": "Intestines",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Poisoned Arrowhead",
+			"Item1": "Poison Flask",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 2",
+			"Recipe": "The String Enthusiast III",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Poisoned Arrowhead",
+			"Item1": "Rotten Eggs",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Poisoned Arrowhead",
+			"Item1": "Arrowhead",
+			"Item2": "Ooze Barrel",
+			"Skill": "Crafting 2",
+			"Recipe": "The Adventurer's Field Guide X",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Poisoncloud Arrow",
+			"Item1": "Poisoncloud Arrowhead",
+			"Item2": "Arrow Shaft",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "Creates Poison Cloud",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Poisoncloud Arrowhead",
+			"Item1": "Poisoned Arrowhead",
+			"Item2": "Poisoned Arrowhead",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Silver Arrow",
+			"Item1": "Silver Arrowhead",
+			"Item2": "Arrow Shaft",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Breaks Armor",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Silver Arrowhead (x4)",
+			"Item1": "Silver Bar",
+			"Item2": "Anvil",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Slowdown Arrow",
+			"Item1": "Slowdown Arrowhead",
+			"Item2": "Arrow Shaft",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Slows down target",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Slowdown Arrowhead",
+			"Item1": "Cup of Oil ",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Empty Cup",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Slowdown Arrowhead",
+			"Item1": "Arrowhead",
+			"Item2": "Oil Barrel",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Slowness Arrow",
+			"Item1": "Debuff Speed Potion",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 2",
+			"Recipe": "The String Enthusiast II",
+			"Notes": "Lowers target's Speed",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Smokscreen Arrow",
+			"Item1": "Smokscreen Arrowhead",
+			"Item2": "Arrow Shaft",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Creates a Smokescreen",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Static Cloud Arrow",
+			"Item1": "Static Cloud Arrowhead",
+			"Item2": "Arrow Shaft",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "Creates a Static Cloud",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Static Cloud Arrowhead",
+			"Item1": "Stunning Arrowhead",
+			"Item2": "Cup of Water",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Empty Cup",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Static Cloud Arrowhead",
+			"Item1": "Air Resistance Potion",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 3",
+			"Recipe": "The String Enthusiast II",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Steamcloud Arrow",
+			"Item1": "Steamcloud Arrowhead",
+			"Item2": "Arrow Shaft",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Creates a Steam Cloud",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Steamcloud Arrowhead",
+			"Item1": "Fire Arrowhead",
+			"Item2": "Cup of Water",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Empty Cup",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Steamcloud Arrowhead",
+			"Item1": "Water Resistance Potion",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 2",
+			"Recipe": "The String Enthusiast II",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Stunning Arrow",
+			"Item1": "Stunning Arrowhead",
+			"Item2": "Arrow Shaft",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Stuns target",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Stunning Arrowhead",
+			"Item1": "Tooth",
+			"Item2": "Knife or Dagger",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Weakening Arrow",
+			"Item1": "Debuff Strength Potion",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 2",
+			"Recipe": "The String Enthusiast II",
+			"Notes": "Lowers target's Strength",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Withering Arrow",
+			"Item1": "Debuff Constitution Potion",
+			"Item2": "Arrowhead",
+			"Skill": "Crafting 2",
+			"Recipe": "The String Enthusiast II",
+			"Notes": "Lowers target's Constitution",
+			"Type": "Arrow"
+		}, {
+			"ResultingItem": "Ancient Skull Amulet",
+			"Item1": "Magical Ancient Human Skull",
+			"Item2": "Thread",
+			"Skill": "Crafting 3",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Intelligence: +1(HL1) / +2 HL17), Earth Resistance: +5%(HL1) / +10%(HL6) / + 15 % (HL11) / +20 % (HL16) / +25 % (HL21)",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Chicken Amulet",
+			"Item1": "Magic Chicken Foot",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Initiative: +1",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Chicken Amulet",
+			"Item1": "Magical Big Chicken Foot",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Initiative: +1 (Probably a bug)",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Claw Amulet",
+			"Item1": "Magic Claw",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Strength: +1 (HL1) / +2 (HL17)",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Creepy Eye Amulet",
+			"Item1": "Magical Creepy Eye",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Perception:  +1 (HL1) / +2 (HL17), + Sight",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Fancy Feather Amulet",
+			"Item1": "Magical Fancy Feather",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Dexterity: +1 (HL1) / +2 (HL17), + HP",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Feather Amulet",
+			"Item1": "Magic Feather",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Dexterity: +1 (HL1) / +2 (HL17)",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Glowing Star Fish Amulet",
+			"Item1": "Magical Glowing Starfish",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "+ HP, Water Resistance: +5%(HL1) / +10%(HL6) / +15%(HL11) / +20%(HL16) / + 25 % (HL21)",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Large Tusk Amulet",
+			"Item1": "Magical Large Tusk",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Loremaster: +1. Intelligence:  +1(HL1) / +2(HL17). Air Resistance: +5%(HL1) / +10%(HL6) / +15%(HL11) / + 20 % (HL16) / +25 % (HL21)",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Long Rat Tail Amulet",
+			"Item1": "Magical Long Rat Tail",
+			"Item2": "Thread",
+			"Skill": "Crafting 2",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Poison Resistance: +5%(HL1) / +10%(HL4) / +15%(HL9) / +20%(HL14) / +25%(HL19)",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Lucky Rabbit Paw Amulet",
+			"Item1": "Magical Lucky Rabbit Paw",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Lucky Charm: +1, +Movement",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Lucky Rabbit Paw Super Amulet",
+			"Item1": "Lucky Rabbit Paw Amulet",
+			"Item2": "Bowstring",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "Lucky Charm: +1, +Movement",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Lucky Rabbit's Paw Amulet",
+			"Item1": "Rabbit's Paw Amulet",
+			"Item2": "Bowstring",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "Lucky Charm: +1, +Movement",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Rabbit's Paw Amulet",
+			"Item1": "Magic Rabbit's Paw",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "Secrets of the Scroll III, The Adventurer's Field Guide XIX",
+			"Notes": "Lucky Charm: +1",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Rat Tail Amulet",
+			"Item1": "Magic Rat's Tail",
+			"Item2": "Thread",
+			"Skill": "Crafting 2",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Poison Resistance: +5%(HL1) / +10%(HL6) / +15%(HL11) / +20%(HL16) / + 25 % (HL21)",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Sharp Claw Amulet",
+			"Item1": "Magical Sharp Claw",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Strength: +1 (HL1) / +2 (HL17), + Sight",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Sharp Tooth Amulet",
+			"Item1": "Magical Sharp Tooth",
+			"Item2": "Thread",
+			"Skill": "Crafting 2",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Charisma: +1. Fire Resistance: + 5%(HL1) / +10%(HL6) / +15%(HL11) / +20%(HL16) / +25 % (HL21)",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Skull Amulet",
+			"Item1": "Magic Skull",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Intelligence: +1 (HL1) / +2 (HL17)",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Starfish Amulet",
+			"Item1": "Magic Starfish",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "+ HP",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "The Third Eye Amulet",
+			"Item1": "Magic Eye",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Perception:  +1 (HL1) / +2 (HL17)",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Tooth Amulet",
+			"Item1": "Magic Tooth",
+			"Item2": "Thread",
+			"Skill": "Crafting 2",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Charisma: +1",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Tusk Amulet",
+			"Item1": "Magic Tusk",
+			"Item2": "Thread",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide XIX",
+			"Notes": "Loremaster: +1",
+			"Type": "Amulet"
+		}, {
+			"ResultingItem": "Ancient Skull Belt",
+			"Item1": "Magical Ancient Human Skull",
+			"Item2": "Rope",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Constitution: +1(HL1) / +2 HL17), Earth Resistance: +5%(HL1) / +10%(HL6) / + 15 % (HL11) / +20 % (HL16) / +25 % (HL21)",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Big Chicken Claw Belt",
+			"Item1": "Magical Big Chicken Foot",
+			"Item2": "Rope",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Initiative: +2",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Chicken Belt",
+			"Item1": "Magic Chicken Foot",
+			"Item2": "Rope",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Initiative: +1",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Claw Belt",
+			"Item1": "Magic Claw",
+			"Item2": "Rope",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Strength: +1 (HL1) / +2 (HL17)",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Fancy Feather Belt",
+			"Item1": "Magical Fancy Feather",
+			"Item2": "Rope",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Initiative: +1. + HP",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Feather Belt",
+			"Item1": "Magic Feather",
+			"Item2": "Rope",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Initiative: +1",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Long Rat Tail Belt",
+			"Item1": "Magical Long Rat Tail",
+			"Item2": "Rope",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Poison Resistance: +5%(HL1) / +10%(HL4) / +15%(HL9) / +20%(HL14) / +25%(HL19)",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Rabbit's Paw Belt",
+			"Item1": "Magic Rabbit's Paw",
+			"Item2": "Rope",
+			"Skill": "Crafting 1",
+			"Recipe": "Secrets of the Scroll  III",
+			"Notes": "Lucky Charm: +1",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Rat Tail Belt",
+			"Item1": "Magic Rat's Tail",
+			"Item2": "Rope",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Poison Resistance: +5%(HL1) / +10%(HL6) / +15%(HL11) / +20%(HL16) / + 25 % (HL21)",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Sharp Claw Belt",
+			"Item1": "Magical Sharp Claw",
+			"Item2": "Rope",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Strength: +1 (HL1) / +2 (HL17), + Sight",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Sharp Tooth Belt",
+			"Item1": "Magical Sharp Tooth",
+			"Item2": "Rope",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Charisma: +1. Fire Resistance: + 5%(HL1) / +10%(HL6) / +15%(HL11) / +20%(HL16) / +25 % (HL21)",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Skull Belt",
+			"Item1": "Magic Skull",
+			"Item2": "Rope",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Constitution: +1 (HL1) / +2 (HL17)",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Tooth Belt",
+			"Item1": "Magic Tooth",
+			"Item2": "Rope",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Charisma: +1",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Tusk Belt",
+			"Item1": "Magic Tusk",
+			"Item2": "Rope",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "Body Building: +1",
+			"Type": "Belt"
+		}, {
+			"ResultingItem": "Ancient Skull Ring",
+			"Item1": "Magical Ancient Human Skull",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Constitution: +1(HL1) / +2 HL17), Earth Resistance: +5%(HL1) / +10%(HL6) / + 15 % (HL11) / +20 % (HL16) / +25 % (HL21)",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Big Chicken Claw Ring",
+			"Item1": "Magical Big Chicken Foot",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "+ Movement",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Chicken Ring",
+			"Item1": "Magic Chicken Foot",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "+ Movement",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Claw Ring",
+			"Item1": "Magic Claw",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Constitution: +1 (HL1) / +2 (HL17)",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Fancy Feather Ring",
+			"Item1": "Magical Fancy Feather",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Telekenesis: +1, + HP",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Feather Ring",
+			"Item1": "Magic Feather",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Telekenesis: +1",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Large Tusk Ring",
+			"Item1": "Magical Large Tusk",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Intelligence:  +1(HL1) / +2(HL17), Air & Poison Resistance: +5%(HL1) / +10%(HL6) / +15%(HL11) / + 20 % (HL16) / +25 % (HL21)",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Long Rat Tail Ring",
+			"Item1": "Magical Long Rat Tail",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Poison Resistance: +5%(HL1) / +10%(HL4) / +15%(HL9) / +20%(HL14) / +25%(HL19)",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Lucky Rabbit Paw Ring",
+			"Item1": "Magical Lucky Rabbit Paw",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "Secrets of the Scroll  III",
+			"Notes": "Speed: +1 (HL1) / +2 (HL17), +Movement",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Lucky Rabbit Paw Super Ring",
+			"Item1": "Lucky Rabbit Paw Super Amulet",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Speed: +1 (HL1) / +2 (HL17), +Movement",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Lucky Rabbit's Paw Ring",
+			"Item1": "Lucky Rabbit's Paw Amulet",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "Secrets of the Scroll  III",
+			"Notes": "Speed: +1 (HL1) / +2 (HL17), +Movement",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Rabbit's Paw Ring",
+			"Item1": "Magic Rabbit's Paw",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "Secrets of the Scroll  III",
+			"Notes": "Speed: +1 (HL1) / +2 (HL17)",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Rat Tail Ring",
+			"Item1": "Magic Rat's Tail",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Poison Resistance: +5%(HL1) / +10%(HL6) / +15%(HL11) / +20%(HL16) / + 25 % (HL21)",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Sharp Claw Ring",
+			"Item1": "Magical Sharp Claw",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Constitution: +1 (HL1) / +2 (HL17), + Sight",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Sharp Tooth Ring",
+			"Item1": "Magical Sharp Tooth",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Charisma: +1, Fire Resistance: +5%(HL1) / +10%(HL6) / + 15 % (HL11) / +20 % (HL16) / +25 % (HL21)",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Skull Ring",
+			"Item1": "Magic Skull",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Constitution: +1 (HL1) / +2 (HL17)",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Tooth Ring",
+			"Item1": "Magic Tooth",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Charisma: +1",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Tusk Ring",
+			"Item1": "Magic Tusk",
+			"Item2": "Jeveller's Kit: Ring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Poison Resistance: +5%(HL1) / +10%(HL6) / +15%(HL11) / +20%(HL16) / + 25 % (HL21)",
+			"Type": "Rings"
+		}, {
+			"ResultingItem": "Boosted Apparel",
+			"Item1": "Apparel",
+			"Item2": "Fabric Dye",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Changes color of the Apparel",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Apparel",
+			"Item1": "Apparel",
+			"Item2": "Golden Grail",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Changes color of the Apparel to yellow",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Apparel",
+			"Item1": "",
+			"Item2": "Pearl",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide VII",
+			"Notes": "+ Gold Value",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Apparel",
+			"Item1": "Apparel",
+			"Item2": "Ruby",
+			"Skill": "Crafting 5",
+			"Recipe": "Secrets of the Scroll  IX",
+			"Notes": "+ Air, Earth, Fire, and Water Resistance. +5%(IL1) / +10%(IL2) / +15%(IL7) / +20%(IL12) / +25 % (IL17) / +30 % (IL22).",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Apparel",
+			"Item1": "Apparel",
+			"Item2": "Void Essence",
+			"Skill": "Crafting 5",
+			"Recipe": "The Adventurer's Field Guide XV",
+			"Notes": "Sneaking: +1, Changes color of the Apparel",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Boots",
+			"Item1": "Boots",
+			"Item2": "Nine Inch Nails",
+			"Skill": "Crafting 5",
+			"Recipe": "",
+			"Notes": "+ Immunity to Slipping",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Bow",
+			"Item1": "Bow",
+			"Item2": "Bowstring",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "+ Damage",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Bow",
+			"Item1": "Bow",
+			"Item2": "Sextant",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "Perception:  +1 (IL1) / +2 (IL14) / +3 (IL22)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Cloth Apparel",
+			"Item1": "Cloth Apparel",
+			"Item2": "Air Essence",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "+ Air Resistance. +5%(IL1) / +10%(IL2) / +15%(IL7) / +20%(IL12) / +25%(IL17)  / + 30 % (IL22).Color change.",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Cloth Apparel",
+			"Item1": "Cloth Apparel",
+			"Item2": "Earth Essence",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "+ Earth Resistance. +5%(IL1) / +10%(IL2) / +15%(IL7) / +20%(IL12) / +25%(IL17)  / + 30 % (IL22).Color change.",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Cloth Apparel",
+			"Item1": "Cloth Apparel",
+			"Item2": "Fire Essence",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "+ Fire Resistance. +5%(IL1) / +10%(IL2) / +15%(IL7) / +20%(IL12) / +25%(IL17)  / + 30 % (IL22).Color change.",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Cloth Apparel",
+			"Item1": "Cloth Apparel",
+			"Item2": "Water Essence",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "+ Water Resistance. +5%(IL1) / +10%(IL2) / +15%(IL7) / +20%(IL12) / +25%(IL17)  / + 30 % (IL22).Color change.",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Cloth Armor",
+			"Item1": "Cloth Armor",
+			"Item2": "Leather Scraps",
+			"Skill": "Crafting 4",
+			"Recipe": "The Adventurer's Field Guide XI",
+			"Notes": "+ Armor Rating (worse than Metal Scraps)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Cloth Armor",
+			"Item1": "Cloth Armor",
+			"Item2": "Metal Scraps",
+			"Skill": "Crafting 5",
+			"Recipe": "The Adventurer's Field Guide XI",
+			"Notes": "+ Armor Rating (better than Leather Scraps)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Club",
+			"Item1": "Club",
+			"Item2": "Moonstone",
+			"Skill": "Crafting 3",
+			"Recipe": "The Adventurer's Field Guide IX",
+			"Notes": "+ Damage",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Crossbow",
+			"Item1": "Crossbow",
+			"Item2": "Bowstring",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "+ Damage",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Crossbow",
+			"Item1": "Crossbow",
+			"Item2": "Sextant",
+			"Skill": "Crafting 4",
+			"Recipe": "",
+			"Notes": "Perception:  +1 (IL1) / +2 (IL14) / +3 (IL22)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Edged Metal Weapon",
+			"Item1": "",
+			"Item2": "Whetstone",
+			"Skill": "Blacksmithing 2",
+			"Recipe": "The Adventurer's Field Guide VIII",
+			"Notes": "+ Damage",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Edged Metal Weapon",
+			"Item1": "",
+			"Item2": "Whetstone Wheel",
+			"Skill": "Blacksmithing 2",
+			"Recipe": "The Adventurer's Field Guide VIII",
+			"Notes": "+ Damage",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Leather Apparel",
+			"Item1": "Leather Apparel",
+			"Item2": "Air Essence",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "+ Air Resistance. +5%(IL1) / +10%(IL2) / +15%(IL7) / +20%(IL12) / +25%(IL17)  / + 30 % (IL22).Color change.",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Leather Apparel",
+			"Item1": "Leather Apparel",
+			"Item2": "Earth Essence",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "+ Earth Resistance. +5%(IL1) / +10%(IL2) / +15%(IL7) / +20%(IL12) / +25%(IL17)  / + 30 % (IL22).Color change.",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Leather Apparel",
+			"Item1": "Leather Apparel",
+			"Item2": "Fire Essence",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "+ Fire Resistance. +5%(IL1) / +10%(IL2) / +15%(IL7) / +20%(IL12) / +25%(IL17)  / + 30 % (IL22).Color change.",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Leather Apparel",
+			"Item1": "Leather Apparel",
+			"Item2": "Water Essence",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "+ Water Resistance. +5%(IL1) / +10%(IL2) / +15%(IL7) / +20%(IL12) / +25%(IL17)  / + 30 % (IL22).Color change.",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Leather Armor",
+			"Item1": "Leather Armor",
+			"Item2": "Mobile Kitchen",
+			"Skill": "Crafting 2",
+			"Recipe": "The Adventurer's Field Guide XII",
+			"Notes": "+ Armor Rating (worse than Metal Scraps)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Leather Armor",
+			"Item1": "Leather Armor",
+			"Item2": "Metal Scraps",
+			"Skill": "Crafting 5",
+			"Recipe": "The Adventurer's Field Guide XI",
+			"Notes": "+ Armor Rating (better than Mobile Kitchen)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Metal Apparel",
+			"Item1": "Metal Apparel",
+			"Item2": "Air Essence",
+			"Skill": "Crafting 5",
+			"Recipe": "",
+			"Notes": "+ Air Resistance. +5%(IL1) / +10%(IL2) / +15%(IL7) / +20%(IL12) / +25%(IL17)  / + 30 % (IL22).Color change.",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Metal Apparel",
+			"Item1": "Metal Apparel",
+			"Item2": "Earth Essence",
+			"Skill": "Crafting 5",
+			"Recipe": "",
+			"Notes": "+ Earth Resistance. +5%(IL1) / +10%(IL2) / +15%(IL7) / +20%(IL12) / +25%(IL17)  / + 30 % (IL22).Color change.",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Metal Apparel",
+			"Item1": "Metal Apparel",
+			"Item2": "Fire Essence",
+			"Skill": "Crafting 5",
+			"Recipe": "",
+			"Notes": "+ Fire Resistance. +5%(IL1) / +10%(IL2) / +15%(IL7) / +20%(IL12) / +25%(IL17)  / + 30 % (IL22).Color change.",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Metal Apparel",
+			"Item1": "Metal Apparel",
+			"Item2": "Water Essence",
+			"Skill": "Crafting 5",
+			"Recipe": "",
+			"Notes": "+ Water Resistance. +5%(IL1) / +10%(IL2) / +15%(IL7) / +20%(IL12) / +25%(IL17)  / + 30 % (IL22).Color change.",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Metal Armor",
+			"Item1": "Metal Armor",
+			"Item2": "Anvil",
+			"Skill": "Crafting 5",
+			"Recipe": "The Adventurer's Field Guide XIII",
+			"Notes": "+ Movement of Armor",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Metal Armor",
+			"Item1": "Metal Armor",
+			"Item2": "Cup of Oil",
+			"Skill": "-",
+			"Recipe": "The Adventurer's Field Guide VIX",
+			"Notes": "+ Movement of Armor",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Metal Armor",
+			"Item1": "Metal Armor",
+			"Item2": "Plate Scraps",
+			"Skill": "Crafting 5",
+			"Recipe": "The Adventurer's Field Guide XI",
+			"Notes": "+ Armor Rating",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Metal Armor",
+			"Item1": "Metal Armor",
+			"Item2": "Scale Scraps",
+			"Skill": "Crafting 5",
+			"Recipe": "The Adventurer's Field Guide XI",
+			"Notes": "+ Armor Rating",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Metal Shield",
+			"Item1": "Metal Shield",
+			"Item2": "Anvil",
+			"Skill": "Blacksmithing 2",
+			"Recipe": "The Adventurer's Field Guide III",
+			"Notes": "B2: +Durability, B3+: + Blocking",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Metal Shield",
+			"Item1": "Metal Shield",
+			"Item2": "Void Essence",
+			"Skill": "Blacksmithing 4",
+			"Recipe": "",
+			"Notes": "+ Tenebrium Resistance. +5%(IL1) / +10%(IL4) / +15%(IL9) / +20%(IL14) / + 25 % (IL19)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Shield",
+			"Item1": "Shield",
+			"Item2": "Air Essence",
+			"Skill": "Crafting 4",
+			"Recipe": "",
+			"Notes": "+ Air Resistance. +5%(IL1) / +10%(IL4) / +15%(IL9) / +20%(IL14) / +25%(IL19)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Shield",
+			"Item1": "Shield",
+			"Item2": "Earth Essence",
+			"Skill": "Crafting 4",
+			"Recipe": "",
+			"Notes": "+ Earth Resistance. +5%(IL1) / +10%(IL4) / +15%(IL9) / +20%(IL14) / + 25 % (IL19)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Shield",
+			"Item1": "Shield",
+			"Item2": "Fire Essence",
+			"Skill": "Crafting 4",
+			"Recipe": "",
+			"Notes": "+ Fire Resistance. +5%(IL1) / +10%(IL4) / +15%(IL9) / +20%(IL14) / + 25 % (IL19)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Shield",
+			"Item1": "Shield",
+			"Item2": "Water Essence",
+			"Skill": "Crafting 4",
+			"Recipe": "",
+			"Notes": "+ Water Resistance. +5%(IL1) / +10%(IL4) / +15%(IL9) / +20%(IL14) / + 25 % (IL19)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Staff",
+			"Item1": "Staff",
+			"Item2": "Moonstone",
+			"Skill": "Crafting 3",
+			"Recipe": "The Adventurer's Field Guide IX",
+			"Notes": "+ Damage",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Weapon",
+			"Item1": "Weapon",
+			"Item2": "Air Essence",
+			"Skill": "Crafting 5",
+			"Recipe": "Secrets of the Scroll VIII",
+			"Notes": "+ Air Damage (max 1 extra damage type)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Weapon",
+			"Item1": "Weapon",
+			"Item2": "Earth Essence",
+			"Skill": "Crafting 5",
+			"Recipe": "Secrets of the Scroll VIII",
+			"Notes": "+ Earth Damage (max 1 extra damage type)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Weapon",
+			"Item1": "Weapon",
+			"Item2": "Fire Essence",
+			"Skill": "Crafting 5",
+			"Recipe": "Secrets of the Scroll VIII",
+			"Notes": "+ Fire Damage (max 1 extra damage type)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Weapon",
+			"Item1": "Weapon",
+			"Item2": "Joshua's Spice",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "+ Fire Damage (max 1 extra damage type)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Weapon",
+			"Item1": "Weapon",
+			"Item2": "Water Essence",
+			"Skill": "Crafting 5",
+			"Recipe": "Secrets of the Scroll VIII",
+			"Notes": "+ Water Damage (max 1 extra damage type)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Weapon",
+			"Item1": "Weapon",
+			"Item2": "Poison Flask",
+			"Skill": "Crafting 1",
+			"Recipe": "The Adventurer's Field Guide X",
+			"Notes": "+ Poison Damage (max 1 extra damage type)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Weapon",
+			"Item1": "Weapon",
+			"Item2": "Tenebrium Bar",
+			"Skill": "Tenebrium 3",
+			"Recipe": "",
+			"Notes": "+ Tenebrium Damage (max 1 extra damage type)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Weapon",
+			"Item1": "Weapon",
+			"Item2": "Tormented Soul",
+			"Skill": "Crafting 5",
+			"Recipe": "Secrets of the Scroll VII",
+			"Notes": "Strength: +1(IL1) / +2(IL14) / +3(IL22), Dexterity: : +1(IL1) / +2(IL14) / +3(IL22)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Wooden Shield",
+			"Item1": "Wooden Shield",
+			"Item2": "Metal Scraps",
+			"Skill": "Blacksmithing 2",
+			"Recipe": "The Adventurer's Field Guide II",
+			"Notes": "B2: +Durability, B3+: + Blocking",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Boosted Wooden Shield",
+			"Item1": "Wooden Shield",
+			"Item2": "Void Essence",
+			"Skill": "Crafting 4",
+			"Recipe": "",
+			"Notes": "+ Tenebrium Resistance. +5%(IL1) / +10%(IL4) / +15%(IL9) / +20%(IL14) / + 25 % (IL19)",
+			"Type": "Enchanting"
+		}, {
+			"ResultingItem": "Air Resistance Potion",
+			"Item1": "Jellyroom",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 2",
+			"Recipe": "Fun With Fluids II",
+			"Notes": "Air Resistance: +15%",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Debuff Constitution Potion",
+			"Item1": "Bonedust",
+			"Item2": "Poison Flask",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Constitution: -2",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Debuff Dexterity Potion",
+			"Item1": "Sinew",
+			"Item2": "Poison Flask",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Dexterity: -2",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Debuff Intelligence Potion",
+			"Item1": "Tormented Soul",
+			"Item2": "Poison Flask",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Intelligence: -2",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Debuff Perception Potion",
+			"Item1": "Eye",
+			"Item2": "Poison Flask",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Perception:  -2",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Debuff Speed Potion",
+			"Item1": "Void Essence",
+			"Item2": "Poison Flask",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Speed: -2",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Debuff Strength Potion",
+			"Item1": "Tooth",
+			"Item2": "Poison Flask",
+			"Skill": "Crafting 2",
+			"Recipe": "The String Enthusiast III",
+			"Notes": "Strength: -2",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Debuff-All Potion",
+			"Item1": "Debuff Potion",
+			"Item2": "Different Debuff Potion",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "All Stats: -1",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Dexterity Potion",
+			"Item1": "Sinew",
+			"Item2": "Speed Potion",
+			"Skill": "Crafting 5",
+			"Recipe": "Fun With Fluids X",
+			"Notes": "Dexterity: +1",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Earth Resistance Potion",
+			"Item1": "Earth Tongue Mushroom",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 2",
+			"Recipe": "Fun With Fluids II",
+			"Notes": "Earth Resistance: +15%",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Empty Potion Flask (x2)",
+			"Item1": "Air Resistance Potion",
+			"Item2": "Earth Resistance Potion",
+			"Skill": "Crafting 1",
+			"Recipe": "Fun With Fluids II",
+			"Notes": "Both potions must be of the same strength",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Empty Potion Flask (x2)",
+			"Item1": "Fire Resistance Potion",
+			"Item2": "Water Resistance Potion",
+			"Skill": "Crafting 1",
+			"Recipe": "Fun With Fluids II",
+			"Notes": "Both potions must be of the same strength",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Filter of the Fearless Imp",
+			"Item1": "Apple",
+			"Item2": "Pumpkin",
+			"Skill": "-",
+			"Recipe": "Lates Research (in Maradino's Library)",
+			"Notes": "Use it on Yox. (in Hidden Lair)",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Fire Resistance Potion",
+			"Item1": "Guepinia Mushroom",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 2",
+			"Recipe": "Fun With Fluids II",
+			"Notes": "Fire Resistance: +15%",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Intelligence Potion",
+			"Item1": "Void Essence",
+			"Item2": "Minor Perception Potion",
+			"Skill": "Crafting 5",
+			"Recipe": "Fun With Fluids X",
+			"Notes": "Intelligence: +1",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Invisibility Potion",
+			"Item1": "Air Resistance Potion",
+			"Item2": "Magical Armour Potion",
+			"Skill": "Crafting 4",
+			"Recipe": "Fun With Fluids VIII",
+			"Notes": "Sets Invisibility status",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Invisibility Potion",
+			"Item1": "Void Essence",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 4",
+			"Recipe": "",
+			"Notes": "Sets Invisibility status",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Large Healing Potion",
+			"Item1": "Minor Healing Potion",
+			"Item2": "Minor Healing Potion",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "Healing: +157",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Magical Armour Potion",
+			"Item1": "Whisperwood",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Armor: +32",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Medium Healing Potion",
+			"Item1": "Minor Healing Potion",
+			"Item2": "Minor Healing Potion",
+			"Skill": "Crafting 2",
+			"Recipe": "",
+			"Notes": "Healing: +98",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Minor Constitution Potion",
+			"Item1": "Farhangite",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 2",
+			"Recipe": "Fun With Fluids VI",
+			"Notes": "Constitution: +1",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Minor Healing Potion",
+			"Item1": "Penny Bun Mushroom",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 1",
+			"Recipe": "Fun With Fluids I",
+			"Notes": "Healing: +52",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Minor Perception Potion",
+			"Item1": "Eye",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 5",
+			"Recipe": "Fun With Fluids VII, Druid's Alchemy Notes",
+			"Notes": "Perception:  +1",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Minor Resist-All Potion",
+			"Item1": "Air Resistance Potion",
+			"Item2": "Water Resistance Potion",
+			"Skill": "Crafting 3",
+			"Recipe": "Fun With Fluids II",
+			"Notes": "All Resistances: +20% (Except Tenebrium)",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Minor Resist-All Potion",
+			"Item1": "Earth Resistance Potion",
+			"Item2": "Fire Resistance Potion",
+			"Skill": "Crafting 3",
+			"Recipe": "Fun With Fluids II",
+			"Notes": "All Resistances: +20% (Except Tenebrium)",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Minor Strength Potion",
+			"Item1": "Minor Constitution Potion",
+			"Item2": "Bonedust",
+			"Skill": "Crafting 5",
+			"Recipe": "Fun With Fluids X",
+			"Notes": "Strength: +1",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Poison Antidote Potion",
+			"Item1": "Apple",
+			"Item2": "Healing Potion",
+			"Skill": "Crafting 3",
+			"Recipe": "",
+			"Notes": "Cures Poison",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Poison Flask",
+			"Item1": "Empty Potion Flask",
+			"Item2": "Ooze Barrel",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "100% chance to set Poisoned status",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Poison Flask",
+			"Item1": "Fly Agaric Mushroom",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 1",
+			"Recipe": "Fun With Fluids I",
+			"Notes": "100% chance to set Poisoned status",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Poison Flask",
+			"Item1": "Intestines",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "100% chance to set Poisoned status",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Poison Flask",
+			"Item1": "Rotten Eggs",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 1",
+			"Recipe": "",
+			"Notes": "100% chance to set Poisoned status",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Poison Resistance Potion",
+			"Item1": "Drudanae",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 1",
+			"Recipe": "Fun With Fluids IV",
+			"Notes": "Poison Resistance: +15%",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Potion Level Up",
+			"Item1": "Augmentor",
+			"Item2": "Potion",
+			"Skill": "Crafting 3+",
+			"Recipe": "Druid's Alchemy Notes",
+			"Notes": "Minor -> Medium, Medium -> Large",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Speed Potion",
+			"Item1": "Fanny Blossom",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 2",
+			"Recipe": "Fun With Fluids V",
+			"Notes": "Speed: +1",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Telekinesis Potion",
+			"Item1": "Drudanae",
+			"Item2": "Minor Resist-All Potion",
+			"Skill": "Crafting 3",
+			"Recipe": "Fun With Fluids IX",
+			"Notes": "Telekinesis: +1",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Vial of Chicken Blood",
+			"Item1": "Chicken Corpse",
+			"Item2": "Empty Vial",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Used in the quest: The Initiation",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Water Resistance Potion",
+			"Item1": "Bluegill Mushroom",
+			"Item2": "Empty Potion Flask",
+			"Skill": "Crafting 2",
+			"Recipe": "Fun With Fluids II",
+			"Notes": "Water Resistance: +15%",
+			"Type": "Potion"
+		}, {
+			"ResultingItem": "Apple Juice",
+			"Item1": "Apple",
+			"Item2": "Empty Cup",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Heals: +18, Poison Resistance: +10",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Apple Juice",
+			"Item1": "Apple",
+			"Item2": "Empty Mug",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Heals: +18, Poison Resistance: +10",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Apple Pie",
+			"Item1": "Apple Pie Dough",
+			"Item2": "Owen or Furnace",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Heals: +42, Poison Resistance: +10",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Apple Pie Dough",
+			"Item1": "Apple",
+			"Item2": "Dough",
+			"Skill": "-",
+			"Recipe": "Patty Cake, Patty Cake III",
+			"Notes": "Speed: -1, Heals: +13",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Boiled Potato",
+			"Item1": "Potato",
+			"Item2": "Mobile Kitchen",
+			"Skill": "-",
+			"Recipe": "Patty Cake, Patty Cake IV",
+			"Notes": "Constitution: +1, Heals: +22",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Bottle of Beer",
+			"Item1": "Empty Bottle",
+			"Item2": "Beer Barrel",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Intelligence: -1, Heals: +22 20% chance of getting Drunk",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Bottle of Water",
+			"Item1": "Empty Bottle",
+			"Item2": "Water Source: Water Barrel, Well",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Heals: +13",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Bottle of Wine",
+			"Item1": "Empty Bottle",
+			"Item2": "Wine Barrel",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Speed: -1, Heals: +32, 20% chance of getting Drunk",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Bread",
+			"Item1": "Dough",
+			"Item2": "Owen or Furnace",
+			"Skill": "-",
+			"Recipe": "Crafting and Cooking with Maradino",
+			"Notes": "Strength: +1, Speed: -1, Heals: +10",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Cheese Bread",
+			"Item1": "Cheese Bread Dough",
+			"Item2": "Owen or Furnace",
+			"Skill": "-",
+			"Recipe": "Crafting and Cooking with Maradino",
+			"Notes": "Constitution: +1, Heals: +22",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Cheese Bread Dough",
+			"Item1": "Cheese",
+			"Item2": "Dough",
+			"Skill": "-",
+			"Recipe": "Patty Cake, Patty Cake III, Crafting and Cooking with Maradino",
+			"Notes": "Speed: -1, Heals: +13",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Cold Fries",
+			"Item1": "Potato",
+			"Item2": "Knife or Dagger",
+			"Skill": "-",
+			"Recipe": "Patty Cake, Patty Cake IV",
+			"Notes": "Heals: +7",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Cold Mashed Potatoes",
+			"Item1": "Potato",
+			"Item2": "Hammer",
+			"Skill": "-",
+			"Recipe": "Patty Cake, Patty Cake IV",
+			"Notes": "Heals: +7",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Cup of Tea",
+			"Item1": "Tea Herb",
+			"Item2": "Cup of Water",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Heals: +32",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Cup of Water",
+			"Item1": "Empty Cup",
+			"Item2": "Water Source: Water Barrel, Well",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Heals: +13",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Cup of Water",
+			"Item1": "Empty Cup",
+			"Item2": "Bottle of Water",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Heals: +13",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Empty Bottle",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Cyseal Pie",
+			"Item1": "Fish Pie Dough",
+			"Item2": "Owen or Furnace",
+			"Skill": "-",
+			"Recipe": "Crafting and Cooking with Maradino",
+			"Notes": "Intelligence: +1, Speed: -1, Heals: +71",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Dinner",
+			"Item1": "Fish",
+			"Item2": "Mobile Kitchen ",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Strength: +1, Heals: +74",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Dinner",
+			"Item1": "Fish",
+			"Item2": "Owen or Furnace",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Strength: +1, Heals: +74",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Dinner",
+			"Item1": "Raw Meat",
+			"Item2": "Mobile Kitchen ",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Strength: +1, Heals: +74",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Dinner",
+			"Item1": "Raw Meat",
+			"Item2": "Owen or Furnace",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Strength: +1, Heals: +74",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Dough",
+			"Item1": "Flour",
+			"Item2": "Bottle of Water",
+			"Skill": "-",
+			"Recipe": "Crafting and Cooking with Maradino, Patty Cake, Patty Cake II",
+			"Notes": "Speed: -1, Heals: +7",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Empty Bottle",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Dough",
+			"Item1": "Flour",
+			"Item2": "Bucket with Water",
+			"Skill": "-",
+			"Recipe": "Crafting and Cooking with Maradino, Patty Cake, Patty Cake II",
+			"Notes": "Speed: -1, Heals: +7",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Bucket",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Dough",
+			"Item1": "Flour",
+			"Item2": "Cup of Water",
+			"Skill": "-",
+			"Recipe": "Crafting and Cooking with Maradino, Patty Cake, Patty Cake II",
+			"Notes": "Speed: -1, Heals: +7",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Empty Cup",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Dough",
+			"Item1": "Flour",
+			"Item2": "Mug of Water",
+			"Skill": "-",
+			"Recipe": "Crafting and Cooking with Maradino, Patty Cake, Patty Cake II",
+			"Notes": "Speed: -1, Heals: +7",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Empty Mug",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Dwarven Stew",
+			"Item1": "Mug of Beer",
+			"Item2": "Dinner",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Strength: +1, Heals: +74, 100% chance to get Slowed",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Elven Stew",
+			"Item1": "Dinner",
+			"Item2": "Tomato Sauce",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Dexterity: +1, Heals: +50",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Fish Pie Dough",
+			"Item1": "Fish",
+			"Item2": "Dough",
+			"Skill": "-",
+			"Recipe": "Patty Cake, Patty Cake III, Crafting and Cooking with Maradino",
+			"Notes": "Speed: -1, Heals: +13",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Glass of Wine",
+			"Item1": "Empty Cup",
+			"Item2": "Wine Barrel",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Speed: -1, Heals: +32, 20% chance of getting Drunk",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Glass of Wine",
+			"Item1": "Empty Cup",
+			"Item2": "Bottle of Wine ",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Speed: -1, Heals: +32 20% chance of getting Drunk",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Empty Bottle",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Jar of Honey",
+			"Item1": "Jar",
+			"Item2": "Beehive",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Intelligence: +1, Heals: +16, Poison Resistance: +15%",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Mashed Potatoes",
+			"Item1": "Cold Mashed Potatoes",
+			"Item2": "Mobile Kitchen ",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Strength: +1, Heals: +71",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Mashed Potatoes",
+			"Item1": "Cold Mashed Potatoes",
+			"Item2": "Owen or Furnace",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Strength: +1, Heals: +71",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Milk",
+			"Item1": "Empty Cup",
+			"Item2": "Bucket with Milk",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Heals: +18, Armor: +21",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Milk and Honey",
+			"Item1": "Jar of Honey",
+			"Item2": "Milk",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Heals: +52, Armor: +32, Poison Resistance: +20%",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Mug of Beer",
+			"Item1": "Empty Mug",
+			"Item2": "Beer Barrel",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Intelligence: -1, Heals: +22 20% chance of getting Drunk",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Mug of Beer",
+			"Item1": "Empty Mug",
+			"Item2": "Bottle of Beer",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Intelligence: -1, Heals: +22 20% chance of getting Drunk",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Empty Bottle",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Mug of Tea",
+			"Item1": "Tea Herb",
+			"Item2": "Mug of Water",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Bug: Cannot be consumed",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Mug of Water",
+			"Item1": "Empty Mug",
+			"Item2": "Water Source: Water Barrel, Well",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Heals: +13",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Mug of Water",
+			"Item1": "Empty Mug",
+			"Item2": "Bottle of Water",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Heals: +13",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Empty Bottle",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Mug of Wine",
+			"Item1": "Empty Mug",
+			"Item2": "Wine Barrel",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Speed: -1, Heals: +32 20% chance of getting Drunk",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Mug of Wine",
+			"Item1": "Empty Mug",
+			"Item2": "Bottle of Wine ",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Speed: -1, Heals: +32 20% chance of getting Drunk",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Empty Bottle",
+			"Item1": "",
+			"Item2": "",
+			"Skill": "",
+			"Recipe": "",
+			"Notes": "",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Orange Juice",
+			"Item1": "Orange",
+			"Item2": "Empty Cup",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Dexterity: +1, Heals: +18",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Orange Juice",
+			"Item1": "Orange",
+			"Item2": "Empty Mug",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Dexterity: +1, Heals: +18",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Pizza",
+			"Item1": "Pizza Dough",
+			"Item2": "Owen or Furnace",
+			"Skill": "-",
+			"Recipe": "Crafting and Cooking with Maradino",
+			"Notes": "Constitution: +1, Speed: -1, Heals: +61",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Pizza Dough",
+			"Item1": "Tomato Sauce",
+			"Item2": "Dough ",
+			"Skill": "-",
+			"Recipe": "Patty Cake, Patty Cake III, Crafting and Cooking with Maradino",
+			"Notes": "Speed: -1, Heals: +13",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Poisoned Food or Poisoned Drink",
+			"Item1": "Food or Drink",
+			"Item2": "Ooze Barrel",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "100% chance to set Poisoned status",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Poisoned Food or Poisoned Drink",
+			"Item1": "Food or Drink",
+			"Item2": "Fly Agaric Mushroom",
+			"Skill": "-",
+			"Recipe": "Rat Extermination",
+			"Notes": "100% chance to set Poisoned status",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Poisoned Food or Poisoned Drink",
+			"Item1": "Food or Drink",
+			"Item2": "Intestines",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "100% chance to set Poisoned status",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Poisoned Food or Poisoned Drink",
+			"Item1": "Food or Drink",
+			"Item2": "Poison Flask",
+			"Skill": "-",
+			"Recipe": "Rat Extermination",
+			"Notes": "100% chance to set Poisoned status",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Porridge",
+			"Item1": "Wheat",
+			"Item2": "Milk",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Strength: +1, Heals: +18",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Potato Porridge",
+			"Item1": "Potato",
+			"Item2": "Milk",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Strength: +1, Heals: +39",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Pumpkin Soup",
+			"Item1": "Pumpkin",
+			"Item2": "Mobile Kitchen",
+			"Skill": "-",
+			"Recipe": "Patty Cake, Patty Cake V",
+			"Notes": "Perception:  +1, Heals: +42",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Rivellon Fries",
+			"Item1": "Cold Fries",
+			"Item2": "Mobile Kitchen",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "Constitution: +1, Dexterity: -1, Heals: +71",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Talking Shell, Cooked",
+			"Item1": "Ishmashell",
+			"Item2": "Owen or Furnace",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "100% chance to set Infectious Diseased status",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Talking Shell, Cooked",
+			"Item1": "Ishmashell",
+			"Item2": "Mobile Kitchen",
+			"Skill": "-",
+			"Recipe": "",
+			"Notes": "100% chance to set Infectious Diseased status",
+			"Type": "Food"
+		}, {
+			"ResultingItem": "Tomato Sauce",
+			"Item1": "Tomato",
+			"Item2": "Hammer",
+			"Skill": "-",
+			"Recipe": "Crafting and Cooking with Maradino",
+			"Notes": "Heals: +7, Poison Resistance: +10",
+			"Type": "Food"
+		}]
+	]
+}
