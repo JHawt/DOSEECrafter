@@ -1,6 +1,6 @@
 {
 	"records": [
-		[{
+		{
 			"ResultingItem": "Arrow Shaft (x3)",
 			"Item1": "Branch",
 			"Item2": "Knife",
@@ -3161,5 +3161,5 @@
 			"Notes": "Heals: +7, Poison Resistance: +10",
 			"Type": "Food"
 		}]
-	]
+
 }
